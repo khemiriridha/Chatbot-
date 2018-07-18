@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^app.html$    /livechat/php/app.php?login&service_Client=1 [QSA]
+#RewriteRule ^domicile/livraison/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)$   /index.php?specialite_refrencement=$1&ville_refren1=$2 [QSA]
